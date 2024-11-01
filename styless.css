@@ -1,0 +1,153 @@
+/*Cabeçalho Principal*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+}
+
+
+.faixinha {
+    background-color: #F8BF2A;
+    height: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+}
+
+.banner {
+    display: flex;
+}
+
+.box {
+    background-image: linear-gradient(126deg, #B41721 33.16%, #E61C28 69.05%);
+    color: aliceblue;
+    display: flex;
+    justify-content: end;
+}
+
+.box a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.box a:hover {
+    text-decoration: underline;
+    text-decoration-color: #F8BF2A;
+}
+
+
+/*Main Principal do Site*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: 25px;
+
+}
+
+main h2 {
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: #E61C28;
+
+}
+
+
+
+.foto1 {
+    display: flex;
+    width: 743px;
+    height: 541px;
+
+}
+
+
+main p {
+    padding: 25px;
+    text-align: center;
+    height: auto;
+}
+
+article {
+    max-height: 400px;
+
+}
+
+.boxtext {
+    max-height: 700px;
+}
+
+
+
+
+
+/*Rodapé do Site*/
+
+.caixa {
+    background-image: linear-gradient(126deg, #B41721 33.16%, #E61C28 69.05%);
+
+}
+
+.boxprincipal {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 20px;
+
+
+}
+
+.box1 {
+    display: flex;
+    font-size: 1vw;
+    gap: 35px;
+    max-width: 300px;
+
+}
+
+.box1 h3 {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+
+
+}
+
+.box2 a {
+    color: white;
+    padding-left: 13px;
+    font-size: 1vw;
+
+}
+
+.box2 {
+    font-size: 1vw;
+
+}
+
+.box4 {
+    padding-top: 20px;
+
+}
+
+
+.box3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    color: white;
+    font-size: 1vw;
+    gap: 10px;
+}
